@@ -10,6 +10,46 @@
 </body>
 <h1>Hello everybody</h1>
 <script src="index.js"></script>  
+<!--JAVASCRIPT DISPLAY POSSIBILITIES-->
+<!--using innerHTML-->
+<h1>My webpage</h1>
+<p>My paragraph</p>
+<p id="my image">Here is my image</p>
+<script>
+    document.getElementById("my image".innerHTML) = 4 +4;
+    </script>
+<!--using document.write() 
+using this after an HTML code is loaded,will delete all existing HTML-->
+<script>
+document.write(4+4);
+</script>
+<!--using window.alert() window kwyword is optional-->
+<script>
+    alert(4 + 4 );
+</script>
+<!--using console.log() for debugging purposes-->
+<h3>ACTIVE DEBUGGING</h3>
+<p>F12 on the keyboard will activate debugging</p>
+<p>Then select "Console" in the debugger menu</p>
+<p>click run again</p>
+<script>
+    console.log(4 + 4 );
+</script>
+<!--window.print()method prints the content of the current window-->
+<button onclick="window.print()">print the current page.
+</button>
+<!--JAVASCRIPT STATEMENTS-->
+<p>A javascript <br>statement is a list of <br>
+statements to be executed by a computer</p>
+<p id="my image"></p>
+<script>
+    let a,b,c; // statement 1
+    a = 4; //statement 2
+    b = 5; //statement 3
+    c = 6; //statement 4
+    d = a + b + c; //statement 5
+    document.getElementById("my image").innerHTML = "The value of d is " + d + ".";
+</script>
 
 
 </html>
