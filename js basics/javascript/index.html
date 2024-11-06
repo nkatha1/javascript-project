@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function myFunction(){
+            document.getElementById("my image").innerHTML="new Paragraph.";
+        }
+    </script>
+    <title>Document</title>
+</head>
+<h2>WHAT JAVASCRIPT CAN DO!</h2>
+<p id="demo"> Javascript can change HTMLcontent.</p>
+<button type="button"
+onclick='document.getElementById("demo").innerHtml="Welcome to Javascript Language!"'>click me!</button>
+<p id="my image">Javascript can change Html attribute values in this case it changes the value of the src attribute to an
+ image
+</p>
+<button onclick="document.getElementById('myimage')".src='pic_bulbon.gif'>Turn on</button>
+<img id ="myimage" src="pic_off.gif"
+style="width:50px">
+<button onclick="document.getElementById('myimage')".src='pic_bulboff.gif'>Turn off</button>
+<img id="myimage" src="pic_off.gif"> 
+<p id="my image">Javascript can change HTML styles</p>
+<button onclick="document.getElementById('my image')"style.fontsize = '40px'>click me!</button>   
+<p id="my image">Javascriptcan hide HTML elements</p>
+<button onclick = "document.getElementById('myimage')"style.display='none'>click me!</button>
+<p>Javascriptcan show hidden HTML elements</p>
+<p id="my image" style="display:none">Javascript elements</p>
+<button onclick="document.getElementById('my image')"style.display = 'block'>click me!</button>
+</button>
+<h2>Javascript in body</h2>
+<p id="my image"></p>
+<script>"document.getElementById('my image')".innerHTML="Javascript as a language";</script>
+<h2>Javascript in head</h2>
+<p id ="my image">PARAGRAPH</p>
+<button onclick="myFunction()">Try here!</button>
+<h2>External Javascript</h2>
+<p id="my image">A paragraph</p>
+<button onclick="myFunction()">Try it!</button>
+<p>This one links to "myScript.js"</p>
+<p>(myFunction is stored in "myscript.js)</p>
+<script src="myScript.js"></script>
+
+
+<body>
+    
+</body>
+</html>
